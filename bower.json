@@ -22,7 +22,7 @@
   ],
   "dependencies": {
     "angular": ">=1.2.18",
-	"date": ">=0.13.2"
+	"date": "<2.0.0"
   },
   "devDependencies": {
     "jquery": "~1.11",
