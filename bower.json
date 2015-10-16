@@ -1,0 +1,31 @@
+{
+  "name": "customer",
+  "version": "0.13.2",
+  "homepage": "https://github.com/javierrca/proteo4-test-customer",
+  "authors": [
+    "JRC"
+  ],
+  "description": "prot customer",
+  "main": ["customer-dist.js", "customer.css"],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "src",
+    "test",
+    "customer-directive.js",
+    "customer-module.js",
+	"customer-controller.js",
+	"*.html",
+    "examples"
+  ],
+  "dependencies": {
+    "angular": ">=1.2.18"
+  },
+  "devDependencies": {
+    "jquery": "~1.11",
+    "angular-sanitize": ">=1.2.18",
+    "angular-mocks": ">=1.2.18"
+  }
+}
