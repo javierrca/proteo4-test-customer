@@ -22,7 +22,7 @@
   ],
   "dependencies": {
     "angular": ">=1.2.18",
-	"date": ""
+	"proteo4-test-date": ""
   },
   "devDependencies": {
     "jquery": "~1.11",
