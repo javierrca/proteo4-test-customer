@@ -10,7 +10,7 @@
   "license": "MIT",
   "ignore": [
     "**/.*",
-    "node_modules",
+    "node_modules",	
     "bower_components",
     "src",
     "test",
@@ -21,7 +21,8 @@
     "examples"
   ],
   "dependencies": {
-    "angular": ">=1.2.18"
+    "angular": ">=1.2.18",
+	"date": ">=0.13.2"
   },
   "devDependencies": {
     "jquery": "~1.11",
