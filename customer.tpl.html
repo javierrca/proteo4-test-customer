@@ -1,0 +1,11 @@
+<div style="border:1px solid black">
+<p>Cliente : {{customerInfo.firstName}}    {{customerInfo.lastName}}</p>
+
+
+<mydate dt="customerInfo.dateIni" lab="Fecha Ata:" on-validate-date="custValidateDate(customerInfo.dateIni)"></mydate>
+<mydate dt="customerInfo.dateFin" lab="Fecha Baja:" on-validate-date="custValidateDate(customerInfo.dateFin)"></mydate>
+
+
+<!--p ng-bind="customerInfo.firstName"></p-->
+<button ng-click="checkInternal()">check</button>
+</div>
